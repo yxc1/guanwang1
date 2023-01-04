@@ -1,0 +1,82 @@
+.banner-content {
+    background: url(../imgs/dataCapability/banner背景.png) 50%;
+}
+
+.banner-content-img {
+    width: 510px;
+    background: url(../imgs/dataCapability/果冻绘写数据能力.png) no-repeat;
+}
+
+.sm-banner-content {
+    background: url(../imgs/dataCapability/小banner.png) 50%;
+}
+
+.data-capability-content {
+    width: 100%;
+    height: 2300px;
+    padding: 95px 0 150px 0;
+    box-sizing: border-box;
+}
+
+.data-capability-content .data-capability-box {
+    margin-top: 140px;
+    position: relative;
+}
+
+.data-capability-content .data-capability-box .data-capability-bg {
+    width: calc(100% - 300px);
+    margin-left: 150px;
+    height: 1680px;
+    top: 140px;
+    position: absolute;
+    background: url(../imgs/dataCapability/bg.png) no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    /* background-position-y: 0px; */
+    z-index: 9;
+}
+
+.data-capability-content .data-capability-box .data-capability-item {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 200px;
+    display: flex;
+}
+
+.data-capability-content .data-capability-box .data-capability-item:last-of-type {
+    margin-bottom: 0px;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-left,
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: 10 !important;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-title {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #313131;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-text {
+    width: 100%;
+    font-size: 18px;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+}
+
+.data-capability-content .data-capability-box .data-capability-item .data-capability-item-img {
+    position: relative;
+    display: block;
+    width: 100%;
+}

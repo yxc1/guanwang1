@@ -1,0 +1,95 @@
+.banner-content{
+    background: url(../imgs/contactUs/banner背景.png) 50%;
+}
+.banner-content-img{
+    width: 260px;
+    background: url(../imgs/contactUs/专属服务.png) no-repeat;
+}
+.online-support {
+    width: 100%;
+    height: 710px;
+    padding: 130px 0;
+    box-sizing: border-box;
+}
+
+.QR-code-content {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QR-code-content .QR-code--item {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 140px;
+}
+
+.QR-code-content .QR-code--item:last-of-type {
+    margin-right: 0px;
+}
+
+.QR-code-content .QR-code--item .QR-img {
+    display: block;
+    width: 196px;
+    height: 196px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px 0px rgba(184, 184, 184, 0.23);
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.QR-code-content .QR-code--item .QR-title {
+    font-size: 24px;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #313131;
+    margin-bottom: 15px;
+}
+
+.QR-code-content .QR-code--item .QR-text {
+    font-size: 18px;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+    text-align: center;
+}
+
+.map-content {
+    width: 100%;
+    height: 400px;
+    display: flex;
+
+}
+
+.map-content .map-box {
+    width: 50%;
+    height: 100%;
+}
+
+.map-content .offline-service {
+    width: 50%;
+    height: 100%;
+    background: url(../imgs/contactUs/线下服务.png) 50%;
+    padding: 64px 0 0 53px;
+    box-sizing: border-box;
+}
+
+.map-content .offline-service .offline-service-title {
+    font-size: 36px;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+}
+
+.map-content .offline-service .offline-service-text {
+    width: 350px;
+    font-size: 24px;
+    font-family: PingFang;
+    font-weight: 800;
+    color: #FFFFFF;
+}

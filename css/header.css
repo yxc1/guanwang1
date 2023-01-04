@@ -1,0 +1,57 @@
+.header-container {
+    width: 100%;
+    height: 98px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.header-container .my-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container .my-container .header-logo {
+    width: 180px;
+    height: 43px;
+    background: url(../imgs/header/logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-container .my-container .header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-container .my-container .header-menu-item {
+    height: 40px;
+    font-size: 18px;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #535353;
+    margin-right: 55px;
+    cursor: pointer;
+    line-height: 40px;
+    user-select: none;
+}
+
+.header-container .my-container .header-menu-item:hover {
+    color: #006AB2;
+}
+
+.header-container .my-container .header-menu-btn {
+    width: 144px;
+    height: 40px;
+    background: linear-gradient(90deg, #006AB2, #16D8D8);
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
