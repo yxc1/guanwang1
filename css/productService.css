@@ -1,0 +1,412 @@
+.banner-content {
+    background: url(../imgs/productService/banner背景.png) 50%;
+}
+
+.banner-content-img {
+    width: 25.5rem;
+    background: url(../imgs/productService/果冻绘写产品介绍.png) no-repeat;
+}
+
+.container-box {
+    height: 113rem;
+    width: 100%;
+    background: url(../imgs/productService/bg.png) no-repeat;
+    background-size: 100% calc(100% - 12rem);
+    background-position-y: 8rem;
+    margin: 2rem 0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.introduce-box {
+    width: 100%;
+    height: 11.5rem;
+    background: url(../imgs/productService/标题背景.png) no-repeat;
+    background-size: 21rem;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introduce-box .introduce-text {
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #313131;
+}
+
+.annual-report-box {
+    width: 100%;
+    height: 31rem;
+    display: flex;
+}
+
+.pro-box {
+    width: 100%;
+    height: 31rem;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.webside-report-box {
+    width: 100%;
+    height: 31rem;
+    display: flex;
+}
+
+.annual-report-box .annual-report-left,
+.annual-report-box .annual-report-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.annual-report-box .annual-report-left img {
+    display: flex;
+    width: 16rem;
+    height: 17.5rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
+.annual-report-box .annual-report-left .annual-report-left-content {
+    width: 100%;
+    position: absolute;
+    top: 11.5rem;
+    left: 1rem;
+}
+
+.annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-title {
+    font-size: 1.6rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #313131;
+    margin-bottom: 1rem;
+}
+
+.annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-text {
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+    margin-bottom: 0.5rem;
+}
+
+.annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-p {
+    font-size: 0.8rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #999999;
+}
+
+.annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-btn {
+    width: 9.2rem;
+    height: 2rem;
+    background: linear-gradient(90deg, #D63775, #FFCAA4);
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.annual-report-box .annual-report-right {
+    padding-top: 9rem;
+
+}
+
+.introduce-item {
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+}
+
+.introduce-item i {
+    flex: none;
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    background: #16D8D8;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    margin-top: 0.6rem;
+}
+
+.introduce-item .introduce-item-box {
+    width: calc(100% - 3rem);
+}
+
+.introduce-item .introduce-item-box .introduce-title {
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #006AB2;
+    margin-bottom: 0.5rem;
+}
+
+.introduce-item .introduce-item-box .introduce-text {
+    font-size: 0.9rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #535353;
+}
+
+.introduce-tip {
+    font-size: 0.8rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #999999;
+    padding: 0 1.9rem;
+}
+
+.pro-box .pro-left,
+.pro-box .pro-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.pro-box .pro-left {}
+
+.pro-box .pro-right img {
+    display: flex;
+    width: 16rem;
+    height: 17.5rem;
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+
+.pro-box .pro-right .pro-right-content {
+    width: 100%;
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+}
+
+.pro-box .pro-right .pro-right-content .pro-right-title {
+    font-size: 1.6rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #313131;
+    margin-bottom: 1rem;
+}
+
+.pro-box .pro-right .pro-right-content .pro-right-text {
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+    margin-bottom: 0.5rem;
+}
+
+.pro-box .pro-right .pro-right-content .pro-right-p {
+    font-size: 0.8rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #999999;
+}
+
+.pro-box .pro-right .pro-right-content .pro-right-btn {
+    width: 9.2rem;
+    height: 2rem;
+    background: linear-gradient(90deg, #006AB2, #16D8D8);
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.webside-report-box .webside-report-left,
+.webside-report-box .webside-report-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.webside-report-box .webside-report-left img {
+    display: flex;
+    width: 16rem;
+    height: 17.5rem;
+    position: absolute;
+    top: 13.5rem;
+    right: 1rem;
+}
+
+.webside-report-box .webside-report-left .webside-report-left-content {
+    width: 100%;
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+}
+
+.webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-title {
+    font-size: 1.6rem;
+    font-family: PingFang;
+    font-weight: bold;
+    color: #313131;
+    margin-bottom: 1rem;
+}
+
+.webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-text {
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+    margin-bottom: 0.5rem;
+}
+
+.webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-p {
+    font-size: 0.8rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #999999;
+}
+
+.webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-btn {
+    width: 9.2rem;
+    height: 2rem;
+    background: linear-gradient(90deg, #D63775, #FFCAA4);
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.webside-report-box .webside-report-right {
+    padding-top: 3rem;
+}
+
+.introduce-video-content {
+    width: 100%;
+    height: 45rem;
+    background: #F2F7FB;
+    padding: 4.5rem 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.introduce-video-box {
+    width: 60rem;
+    height: 30rem;
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduce-video-box video {
+    display: block;
+    width: 58rem;
+    /* height: 29rem; */
+    /* border: 1px solid red; */
+}
+
+.service-content {
+    width: 100%;
+    padding: 4.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-type-list {
+    width: 100%;
+    margin-top: 3.5rem;
+}
+
+.service-type-list .service-type-list-item {
+    width: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 0.75rem 0;
+}
+.service-type-list .service-type-list-item:last-of-type{
+    border-bottom: none;
+}
+.service-type-list .service-type-list-item .service-type-list-item-one {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-type-list .service-type-list-item .title {
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: 800;
+    color: #313131;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.service-type-list .service-type-list-item img {
+    display: flex;
+    width: 4.5rem;
+    height:  4.5rem;
+    margin-bottom: 3.3rem;
+}
+
+.service-type-list .service-type-list-item .service-type-list-item-text {
+    width: 10rem;
+    height: 100%;
+    font-size: 0.9rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #787878;
+    text-align: center;
+}
+
+.service-type-list .service-type-btn-box {
+    width: 100%;
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-type-list .service-type-btn-box .service-type-btn {
+    width: 16rem;
+    height: 3.4rem;
+    background: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    box-shadow: 0px 0.15rem 0.4rem 0px rgba(1, 110, 180, 0.08);
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    font-family: PingFang;
+    font-weight: 500;
+    color: #313131;
+    line-height: 3.4rem;
+    text-align: center;
+    cursor: pointer;
+}

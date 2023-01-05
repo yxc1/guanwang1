@@ -9,13 +9,13 @@
 
 .footer-container .footer-copyright {
     width: 100%;
-    height: 40px;
+    height: 2rem;
     background: #252525;
-    font-size: 14px;
+    font-size: 0.7rem;
     font-family: PingFang;
     font-weight: 500;
     color: #ABABAB;
-    line-height: 40px;
+    line-height: 2rem;
     text-align: center;
 }
 
@@ -23,22 +23,22 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 60px 0 80px 0;
+    padding: 3rem 0 4rem 0;
 
 }
 
 .footer-container .footer-content .footer-logo-content {}
 
 .footer-container .footer-content .footer-logo-content .footer-logo {
-    height: 57px;
-    width: 225px;
+    height: 2.85rem;
+    width: 11.25rem;
     background: url(../imgs/footer/logo.png) no-repeat;
     background-size: 100% 100%;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
 }
 
 .footer-container .footer-content .footer-logo-content .footer-company {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
@@ -46,7 +46,7 @@
 }
 
 .footer-container .footer-content .footer-logo-content .footer-address {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-family: PingFang;
     color: #FFFFFF;
 }
@@ -54,19 +54,19 @@
 .footer-container .footer-content .footer-menu-content {}
 
 .footer-container .footer-content .footer-menu-content .footer-menu-title {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
-    padding-top: 8px;
-    margin-bottom: 10px;
+    padding-top: 0.4rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer-container .footer-content .footer-menu-content .footer-menu-item {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-family: PingFang;
     color: #CBCBCB;
-    line-height: 28px;
+    line-height: 1.4rem;
 }
 
 .footer-container .footer-content .footer-menu-content .hover-item {
@@ -74,8 +74,8 @@
 }
 
 .footer-container .footer-content .footer-menu-content .footer-menu-img {
-    height: 104px;
-    width: 104px;
+    height: 5.2rem;
+    width: 5.2rem;
     background: url(../imgs/footer/公众号.png) no-repeat;
     background-size: 100% 100%;
 }

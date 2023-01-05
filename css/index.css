@@ -8,6 +8,7 @@ body {
     width: 100%;
     height: 100%;
     min-width: 1200px;
+    font-size: 20px;
 }
 
 a {
@@ -16,6 +17,44 @@ a {
 
 .my-container {
     width: 1200px;
+}
+
+
+@media screen and (max-width:1200px) {
+
+    html,
+    body {
+        min-width: 1000px;
+        font-size: 16px;
+    }
+
+    .my-container {
+        width: 960px;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    html,
+    body {
+        min-width: 768px;
+        font-size: 13px;
+    }
+
+    .my-container {
+        width: 728px;
+    }
+    .research-box .research-card{
+        width: 17rem !important;
+    }
+    .research-box .research-card .card-img-top{
+        width: 17rem !important;
+    }
+    .more-type-box .report-type-box .type-card{
+        width: 12rem !important;
+    }
+
 }
 
 .content {
@@ -27,7 +66,7 @@ a {
 }
 
 .header-box {
-    height: 98px;
+    height: 4.9rem;
     width: 100%;
 }
 
@@ -35,70 +74,9 @@ a {
     width: 100%;
 }
 
-@media screen and (max-width:1200px) {
-
-    html,
-    body {
-        min-width: 1000px;
-    }
-
-    .my-container {
-        width: 960px;
-    }
-    #carouselExampleIndicators{
-        height: 540px !important;
-    }
-    .advantage-card:last-of-type {
-        margin-right: 0 !important;
-    }
-    .inner-item-img{
-        width: 380px !important;
-    }
-    .inner-text{
-        font-size: 22px !important;
-        width: 540px !important;
-    }
-    .inner-btn{
-        width: 160px !important;
-        height: 48px !important;
-        font-size: 20px !important;
-    }
-    .advantage-card {
-        margin-right: 28px !important;
-    }
-
-    .advantage-card-text {
-        padding: 0 20px !important;
-    }
-
-    .problems-card-item {
-        width: 310px !important;
-        height: 320px !important;
-    }
-
-    .problems-card-text {
-        font-size: 16px !important;
-    }
-
-    .problems-card-logo {
-        width: 110px !important;
-        height: 110px !important;
-        top: 0 !important;
-        left: calc(50% - 55px) !important;
-    }
-
-    .problems-card-bg {
-        width: 98px !important;
-        height: 98px !important;
-    }
-
-    .customer-item {
-        width: 230px !important;
-    }
-}
 
 .banner-content {
-    height: 400px;
+    height: 20rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -107,47 +85,48 @@ a {
 }
 
 .banner-content-img {
-    background-size: 100% 100%;
-    height: 90px;
+    background-size: 100% 100% !important;
+    height: 4.5rem;
 }
 
 .banner-content-text {
-    width: 550px;
-    height: 45px;
-    font-size: 20px;
+    width: 27.5rem;
+    height: 2.25rem;
+    font-size: 1rem;
     font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
-    line-height: 45px;
+    line-height: 2.25rem;
     text-align: center;
     background: url(../imgs/矩形.png) no-repeat;
     background-size: 100% 100%;
+    margin-top: 1rem;
 }
 
 .banner-btn {
-    width: 200px;
-    height: 48px;
+    width: 10rem;
+    height: 2.4rem;
     background: #FFFFFF;
-    border-radius: 4px;
-    font-size: 20px;
+    border-radius: 0.2rem;
+    font-size: 1rem;
     font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
-    line-height: 48px;
+    line-height: 2.4rem;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1.5rem;
     cursor: pointer;
 }
 
 .sm-banner-content-text {
-    font-size: 36px;
+    font-size: 1.8rem;
     font-family: PingFang;
     font-weight: 800;
     color: #FFFFFF;
 }
 
 .sm-banner-content {
-    height: 360px;
+    height: 18rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -156,17 +135,17 @@ a {
 }
 
 .sm-banner-btn {
-    width: 200px;
-    height: 56px;
+    width: 10rem;
+    height: 2.8rem;
     background: rgba(255, 255, 255, 0.4);
-    border-radius: 4px;
-    font-size: 28px;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
     font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
-    line-height: 56px;
+    line-height: 2.8rem;
     text-align: center;
-    margin-top: 95px;
+    margin-top: 4.75rem;
     cursor: pointer;
 }
 
@@ -178,23 +157,23 @@ a {
 }
 
 .line-title .left-line {
-    width: 100px;
-    height: 2px;
+    width: 5rem;
+    height: 0.1rem;
     background: url(../imgs/标题装饰左.png) no-repeat;
     background-size: 100% 100%;
 }
 
 .line-title .right-line {
-    width: 100px;
-    height: 2px;
+    width: 5rem;
+    height: 0.1rem;
     background: url(../imgs/标题装饰右.png) no-repeat;
     background-size: 100% 100%;
 }
 
 .line-title .title {
-    font-size: 36px;
+    font-size: 1.8rem;
     font-family: PingFang;
     font-weight: bold;
     color: #313131;
-    margin: 0 10px;
+    margin: 0 0.5rem;
 }

@@ -5,16 +5,16 @@
 
 #carouselExampleIndicators {
     width: 100%;
-    height: 640px;
+    height: 32rem;
 }
 
 .sm-banner-content {
     background: url(../imgs/home/小banner.png) 50%;
-    height: 320px;
+    height: 12rem;
 }
 
 .sm-banner-btn {
-    margin-top: 40px;
+    margin-top: 2rem;
 }
 
 .inner-box {
@@ -49,35 +49,37 @@
 
 .inner-item-container .inner-item-img {
     display: block;
-    width: 500px;
-    margin-bottom: 60px;
+    width: 25rem;
+    margin-bottom: 3rem;
 }
 
 .inner-item-container .inner-text {
-    width: 700px;
-    height: 55px;
+    width: 35rem;
+    height: 2.75rem;
     background: rgba(255, 255, 255, 0.4);
-    border-radius: 3px;
-    font-size: 28px;
+    border-radius: 0.15rem;
+    font-size: 1.4rem;
     font-family: PingFang;
     font-weight: 500;
     color: #FFFFFF;
-    line-height: 55px;
+    line-height: 2.75rem;
     text-align: center;
-    margin-bottom: 75px;
+    margin-bottom: 3.75rem;
+    ;
 }
 
 .inner-item-container .inner-btn {
-    width: 200px;
-    height: 56px;
+    width: 10rem;
+    height: 2.8rem;
     background: #FFFFFF;
-    border-radius: 4px;
-    font-size: 24px;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    ;
     font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
     text-align: center;
-    line-height: 56px;
+    line-height: 2.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,42 +87,45 @@
 }
 
 .inner-item-container .inner-btn img {
-    margin-left: 15px;
+    display: block;
+    margin-left: 0.75rem;
+    width: 1.6rem;
+    height: 1.6rem;
 }
 
 .carousel-indicators .carousel-li {
-    width: 12px;
-    height: 12px;
+    width: 0.6rem;
+    height: 0.6rem;
     background: #FFFFFF;
     opacity: 0.4;
-    border-radius: 6px;
+    border-radius: 0.3rem;
     border: none;
 
 }
 
 .carousel-indicators .active {
-    width: 64px;
-    height: 12px;
+    width: 3.2rem;
+    height: 0.6rem;
     background: #FFFFFF;
     opacity: 0.8;
-    border-radius: 6px;
+    border-radius: 0.3rem;
     border: none;
 }
 
 .pattern-box {
     width: 100%;
-    height: 300px;
-    padding-top: 100px;
-    margin-top: 20px;
+    height: 15rem;
+    padding-top: 5rem;
+    margin-top: 1rem;
     background: url(../imgs/home/标题装饰.png) no-repeat;
-    background-size: 600px;
+    background-size: 30rem;
     background-position: center;
 }
 
 .pattern-box .pattern-text {
-    margin-top: 43px;
-    font-size: 16px;
-    padding: 0 120px;
+    margin-top: 2.15rem;
+    font-size: 0.8rem;
+    padding: 0 6rem;
     font-family: PingFang;
     font-weight: 500;
     color: #313131;
@@ -132,16 +137,16 @@
 }
 
 .structure-box {
-    height: 600px;
+    height: 30rem;
     width: 100%;
-    margin: 40px 0;
+    margin: 2rem 0;
     display: flex;
     align-items: center;
 }
 
 .structure-box .left-one {
-    width: 110px;
-    height: 485px;
+    width: 5.5rem;
+    height: 24.25rem;
     background: url(../imgs/home/框.png) no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -153,7 +158,7 @@
 .structure-box .left-one li {
     display: block;
     width: 100%;
-    font-size: 16px;
+    font-size: 0.8rem;
     font-family: Source Han Sans CN;
     font-weight: bold;
     color: #006AB2;
@@ -161,8 +166,8 @@
 }
 
 .structure-box .left-two {
-    width: 120px;
-    height: 485px;
+    width: 6rem;
+    height: 24.25rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -171,30 +176,29 @@
 
 .structure-box .left-two img {
     display: block;
-    width: 60px;
-    height: 32px;
-    margin-left: 10px;
+    width: 3rem;
+    height: 1.6rem;
+    margin-left: 0.5rem;
 }
 
 .structure-box .left-two div {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: Source Han Sans CN;
     font-weight: 500;
     color: #535353;
 }
 
 .structure-box .left-three {
-    height: 600px;
+    height: 30rem;
     width: 100%;
     background: url(../imgs/home/首页首屏背景.png) no-repeat;
     background-size: 100% 100%;
     display: flex;
-    /* padding-left: 30px; */
     justify-content: space-around;
 }
 
 .structure-box .left-three .right-one {
-    width: 200px;
+    width: 10rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -211,13 +215,13 @@
 
 .structure-box .left-three .right-one .right-one-item img {
     display: block;
-    width: 95px;
-    height: 110px;
-    margin-bottom: 10px;
+    width: 4.75rem;
+    height: 5.5rem;
+    margin-bottom: 0.5rem
 }
 
 .structure-box .left-three .right-one .right-one-item span {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: Source Han Sans CN;
     font-weight: bold;
     color: #006AB2;
@@ -225,8 +229,8 @@
 
 .structure-box .left-three .right-one .right-one-add-icon {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .structure-box .left-three .right-two,
@@ -236,14 +240,14 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .structure-box .left-three .right-two img,
 .structure-box .left-three .right-four img {
     display: block;
-    width: 130px;
-    height: 32px;
+    width: 6.5rem;
+    height: 1.6rem;
 }
 
 .structure-box .left-three .right-three {
@@ -252,11 +256,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 20px;
+    margin-right: 1rem;
 }
 
 .structure-box .left-three .right-three .right-three-title {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: Source Han Sans CN;
     font-weight: 500;
     color: #313131;
@@ -264,28 +268,28 @@
 
 .structure-box .left-three .right-three .right-three-img {
     display: block;
-    width: 90px;
-    height: 105px;
-    margin-top: 20px;
+    width: 4.5rem;
+    height: 5.25rem;
+    margin-top: 1rem;
 }
 
 .structure-box .left-three .right-three .right-three-img-title {
     display: flex;
-    width: 139px;
-    height: 23px;
-    margin: 20px 0 10px 0;
+    width: 7rem;
+    height: 1.15rem;
+    margin: 1rem 0 0.5rem 0;
 }
 
 .structure-box .left-three .right-three .right-three-text {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-family: Source Han Sans CN;
     font-weight: 400;
     color: #535353;
-    margin-top: 10px;
+    margin-top: 0.5rem;
 }
 
 .structure-box .left-three .right-five {
-    width: 110px;
+    width: 6.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -303,20 +307,20 @@
 
 .structure-box .left-three .right-five .right-five-item img {
     display: block;
-    width: 69px;
-    height: 81px;
-    margin-bottom: 10px;
+    width: 3.5rem;
+    height: 4rem;
+    margin-bottom: 0.5rem;
 }
 
 .structure-box .left-three .right-five .right-five-item span {
-    font-size: 14px;
+    font-size: 0.7rem;
     font-family: Source Han Sans CN;
     font-weight: bold;
     color: #006AB2;
 }
 
 .advantage-box {
-    padding: 50px 0;
+    padding: 2.5rem 0;
     width: 100%;
 }
 
@@ -325,16 +329,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 5rem;
 }
 
 .advantage-box .advantage-card-box .advantage-card {
-    width: 360px;
-    height: 560px;
+    width: 18rem;
+    height: 28rem;
     background: #FFFFFF;
-    box-shadow: 0px 3px 16px 0px rgba(49, 170, 255, 0.3);
-    border-radius: 10px;
-    margin-right: 48px;
+    box-shadow: 0px 0.15rem 0.8rem 0px rgba(49, 170, 255, 0.3);
+    border-radius: 0.5rem;
+    margin-right: 2.4rem;
     transition: all .5s;
     position: relative;
 }
@@ -344,76 +348,77 @@
 }
 
 .advantage-box .advantage-card-box .advantage-card:hover {
-    transform: translateY(-25px);
+    transform: translateY(-1.3rem);
     /* transform: scale(1.1); */
     /* width: 380px; */
 }
 
 .advantage-box .advantage-card-box .advantage-card .advantage-card-title {
-    height: 26px;
-    font-size: 24px;
+    height: 1.3rem;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: 800;
     color: #313131;
-    line-height: 26px;
-    margin-top: 45px;
+    line-height: 1.3rem;
+    margin-top: 2.3rem;
     text-align: center;
 }
 
 .advantage-box .advantage-card-box .advantage-card img {
     display: flex;
-    width: 106px;
-    height: 70px;
-    margin: 50px 0 40px 0;
-    margin-left: calc(50% - 53px);
+    width: 5.3rem;
+    height: 3.5rem;
+    margin: 2.5rem 0 2rem 0;
+    margin-left: calc(50% - 2.65rem);
 }
 
 .advantage-box .advantage-card-box .advantage-card .advantage-card-text {
     width: 100%;
     display: flex;
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: PingFang;
     font-weight: 500;
     color: #787878;
-    padding: 0 40px;
+    padding: 0 2rem;
 }
 
 .advantage-box .advantage-card-box .advantage-card .advantage-card-text i {
     flex: none;
     display: block;
-    width: 8px;
-    height: 8px;
+    width: 0.4rem;
+    height: 0.4rem;
     background: #16D8D8;
     border-radius: 50%;
-    margin-right: 10px;
-    margin-top: 9px;
+    margin-right: 0.5rem;
+    margin-top: 0.45rem;
 }
 
 .advantage-box .advantage-card-box .advantage-card .advantage-card-btn {
-    width: 144px;
-    height: 40px;
+    width: 7.2rem;
+    height: 2rem;
     background: #FFFFFF;
     border: 1px solid #006AB2;
-    border-radius: 4px;
-    font-size: 18px;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    ;
     font-family: PingFang;
     font-weight: 500;
     color: #006AB2;
     text-align: center;
-    line-height: 40px;
+    line-height: 2rem;
     position: absolute;
-    bottom: 32px;
-    left: calc(50% - 72px);
+    bottom: 1.6rem;
+    left: calc(50% - 3.6rem);
     cursor: pointer;
 }
 
 .problems-box {
-    padding: 50px 0;
+    padding: 2.5rem 0;
     width: 100%;
 }
 
 .problems-box .problems-card-box {
-    margin-top: 60px;
+    margin-top: 3rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -422,20 +427,20 @@
 }
 
 .problems-box .problems-card-box .problems-card-item {
-    width: 360px;
-    height: 350px;
-    margin-bottom: 40px;
+    width: 18rem;
+    height: 17.5rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 
 .problems-box .problems-card-box .problems-card-item .problems-card-logo {
     position: absolute;
-    width: 140px;
-    height: 140px;
+    width: 7rem;
+    height: 7rem;
     top: 0;
-    left: calc(50% - 70px);
+    left: calc(50% - 3.5rem);
     background: #FFFFFF;
-    box-shadow: 0px 3px 8px 0px rgba(184, 184, 184, 0.4);
+    box-shadow: 0px 0.15rem 0.4rem 0px rgba(184, 184, 184, 0.4);
     border-radius: 50%;
     z-index: 10;
     display: flex;
@@ -444,11 +449,11 @@
 }
 
 .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-bg {
-    width: 128px;
-    height: 128px;
+    width: 6.4rem;
+    height: 6.4rem;
     position: absolute;
-    top: 6px;
-    left: 6px;
+    top: 0.3rem;
+    left: 0.3rem;
     background: #66A4D1;
     border-radius: 50%;
 }
@@ -456,7 +461,7 @@
 .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-img,
 .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-img-active {
     display: block;
-    width: 60px;
+    width: 3rem;
     /* height: 66px; */
     position: static;
     z-index: 10;
@@ -471,29 +476,29 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 264px;
+    height: 13.2rem;
     background: #FFFFFF;
-    box-shadow: 0px 3px 16px 0px rgba(49, 170, 255, 0.3);
-    border-radius: 10px;
+    box-shadow: 0px 0.15rem 0.8rem 0px rgba(49, 170, 255, 0.3);
+    border-radius: 0.5rem;
     z-index: 9;
-    padding: 75px 10px 0;
+    padding: 3.75rem 0.5rem 0;
 }
 
 .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-title {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: bold;
     color: #006AB2;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
 .problems-box .problems-card-box .problems-card-item:first-of-type .problems-card .problems-card-title {
-    margin-bottom: 35px;
+    margin-bottom: 1.75rem;
 }
 
 .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-text {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: PingFang;
     font-weight: 500;
     color: #535353;
@@ -514,7 +519,7 @@
 
 .problems-box .problems-card-box .problems-card-item:hover .problems-card {
     background: linear-gradient(-90deg, #006AB2, #16D8D8);
-    box-shadow: 0px 3px 16px 0px rgba(49, 170, 255, 0.3);
+    box-shadow: 0px 0.15rem 0.8rem 0px rgba(49, 170, 255, 0.3);
 }
 
 .problems-box .problems-card-box .problems-card-item:hover .problems-card .problems-card-title,
@@ -523,22 +528,22 @@
 }
 
 .problems-box .problems-card-box .problems-card-item:hover .problems-card-logo {
-    box-shadow: 0px 3px 8px 0px rgba(184, 184, 184, 0.4);
+    box-shadow: 0px 0.15rem 0.4rem 0px rgba(184, 184, 184, 0.4);
 }
 
 .customer-box {
     width: 100%;
-    margin: 100px 0;
+    margin: 5rem 0;
 }
 
 .customer-box .left-line,
 .customer-box .left-right {
-    width: 60px;
+    width: 3rem;
 }
 
 .customer-box .customer-item-box {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -546,26 +551,26 @@
 }
 
 .customer-box .customer-item {
-    width: 279px;
-    height: 112px;
+    width: 14rem;
+    height: 5.6rem;
     background: #FFFFFF;
     border: 1px solid #C5C5C5;
-    border-radius: 4px;
+    border-radius: 0.2rem;
 }
 
 .research-box {
     width: 100%;
-    margin: 100px 0;
+    margin: 5rem 0;
 }
 
 .research-box .left-line,
 .research-box .left-right {
-    width: 60px;
+    width: 3rem;
 }
 
 .research-box .line-title .title {
-    margin: 0 50px;
-    font-size: 36px;
+    margin: 0 2.5rem;
+    font-size: 1.8rem;
     font-family: Adobe Heiti Std;
     font-weight: normal;
     color: #313131;
@@ -573,7 +578,7 @@
 
 .research-box .research-item-box {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -581,27 +586,28 @@
 }
 
 .research-box .research-card {
-    width: 380px;
+    width: 19rem;
     background: #FFFFFF;
-    box-shadow: 0px 3px 16px 0px rgba(49, 170, 255, 0.3);
-    border-radius: 4px;
+    box-shadow: 0px 0.15rem 0.8rem 0px rgba(49, 170, 255, 0.3);
+    border-radius: 0.2rem;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 }
 
-.research-box .research-card .card-img-top{
+.research-box .research-card .card-img-top {
     display: block;
-    width: 380px;
+    width: 19rem;
 }
+
 .research-box .research-card h5 {
-    font-size: 20px;
+    font-size: 1rem;
     font-family: PingFang;
     font-weight: 500;
     color: #313131;
 }
 
 .research-box .research-card .card-text {
-    font-size: 16px;
+    font-size: 0.8rem;
     font-family: PingFang;
     font-weight: 500;
     color: #999999;

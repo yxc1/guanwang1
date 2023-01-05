@@ -3,7 +3,7 @@
 }
 
 .banner-content-img {
-    width: 510px;
+    width: 25.5rem;
     background: url(../imgs/dataCapability/果冻绘写数据能力.png) no-repeat;
 }
 
@@ -13,21 +13,21 @@
 
 .data-capability-content {
     width: 100%;
-    height: 2300px;
-    padding: 95px 0 150px 0;
+    height: 115rem;
+    padding: 4.75rem 0 7.5rem 0;
     box-sizing: border-box;
 }
 
 .data-capability-content .data-capability-box {
-    margin-top: 140px;
+    margin-top: 7rem;
     position: relative;
 }
 
 .data-capability-content .data-capability-box .data-capability-bg {
-    width: calc(100% - 300px);
-    margin-left: 150px;
-    height: 1680px;
-    top: 140px;
+    width: calc(100% - 15rem);
+    margin-left: 7.5rem;
+    height: 84rem;
+    top: 7rem;
     position: absolute;
     background: url(../imgs/dataCapability/bg.png) no-repeat;
     background-size: 100% 100%;
@@ -38,8 +38,8 @@
 
 .data-capability-content .data-capability-box .data-capability-item {
     width: 100%;
-    height: 320px;
-    margin-bottom: 200px;
+    height: 16rem;
+    margin-bottom: 10rem;
     display: flex;
 }
 
@@ -60,8 +60,8 @@
 
 .data-capability-content .data-capability-box .data-capability-item .data-capability-item-title {
     width: 100%;
-    margin-bottom: 20px;
-    font-size: 28px;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
     font-family: PingFang;
     font-weight: bold;
     color: #313131;
@@ -69,7 +69,7 @@
 
 .data-capability-content .data-capability-box .data-capability-item .data-capability-item-text {
     width: 100%;
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: PingFang;
     font-weight: 500;
     color: #787878;

@@ -2,30 +2,30 @@
     background: url(../imgs/contactUs/banner背景.png) 50%;
 }
 .banner-content-img{
-    width: 260px;
+    width: 13rem;
     background: url(../imgs/contactUs/专属服务.png) no-repeat;
 }
 .online-support {
     width: 100%;
-    height: 710px;
-    padding: 130px 0;
+    height: 35.5rem;
+    padding: 5.15rem 0;
     box-sizing: border-box;
 }
 
 .QR-code-content {
-    margin-top: 70px;
+    margin-top: 3.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .QR-code-content .QR-code--item {
-    width: 240px;
+    width: 12rem;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-right: 140px;
+    margin-right: 7rem;
 }
 
 .QR-code-content .QR-code--item:last-of-type {
@@ -34,24 +34,24 @@
 
 .QR-code-content .QR-code--item .QR-img {
     display: block;
-    width: 196px;
-    height: 196px;
+    width: 9.8rem;
+    height: 9.8rem;
     background: #FFFFFF;
-    box-shadow: 0px 3px 8px 0px rgba(184, 184, 184, 0.23);
-    border-radius: 10px;
-    margin-bottom: 35px;
+    box-shadow: 0px 0.15rem 0.4rem 0px rgba(184, 184, 184, 0.23);
+    border-radius: 0.5rem;
+    margin-bottom: 1.75rem;
 }
 
 .QR-code-content .QR-code--item .QR-title {
-    font-size: 24px;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: 500;
     color: #313131;
-    margin-bottom: 15px;
+    margin-bottom: 0.75rem;
 }
 
 .QR-code-content .QR-code--item .QR-text {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-family: PingFang;
     font-weight: 500;
     color: #787878;
@@ -60,7 +60,7 @@
 
 .map-content {
     width: 100%;
-    height: 400px;
+    height: 20rem;
     display: flex;
 
 }
@@ -74,21 +74,21 @@
     width: 50%;
     height: 100%;
     background: url(../imgs/contactUs/线下服务.png) 50%;
-    padding: 64px 0 0 53px;
+    padding: 3.2rem 0 0 2.65rem;
     box-sizing: border-box;
 }
 
 .map-content .offline-service .offline-service-title {
-    font-size: 36px;
+    font-size: 1.8rem;
     font-family: PingFang;
     font-weight: bold;
     color: #FFFFFF;
-    margin-bottom: 85px;
+    margin-bottom: 4.25rem;
 }
 
 .map-content .offline-service .offline-service-text {
-    width: 350px;
-    font-size: 24px;
+    width: 17.5rem;
+    font-size: 1.2rem;
     font-family: PingFang;
     font-weight: 800;
     color: #FFFFFF;
