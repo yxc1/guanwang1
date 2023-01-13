@@ -80,3 +80,88 @@
     display: block;
     width: 100%;
 }
+
+@media screen and (max-width: 499px) {
+    .banner-content {
+        background: url(../imgs/dataCapability/数据banner背景.png) no-repeat;
+        background-size: 100% 100%;
+        height: 26.6rem;
+    }
+
+    .banner-content-img {
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .data-capability-content {
+        height: auto;
+        padding: 8rem 0 2rem 0;
+    }
+
+    .data-capability-content .data-capability-box {
+        margin-top: 5rem;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-bg {
+        width: calc(100% - 2rem);
+        height: calc(100% - 30rem);
+        margin-left: 1rem;
+        background: url(../imgs/dataCapability/数据-线.png) no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-position-y: 11rem;
+        top: 0;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item {
+        flex-wrap: wrap;
+        height: auto;
+        margin-bottom: 4rem;
+        padding: 0 1rem;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1),
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) {
+        flex-direction: column-reverse;
+        
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1) .data-capability-item-text,
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) .data-capability-item-text {
+        margin-left: 0;
+        text-align: left;
+    }
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(1) .data-capability-item-title,
+    .data-capability-content .data-capability-box .data-capability-item:nth-of-type(3) .data-capability-item-title {
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-left,
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-right {
+        width: 100%;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-title {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #313131;
+        margin-top: 2rem;
+        text-align: right;
+    }
+
+    .data-capability-content .data-capability-box .data-capability-item .data-capability-item-text {
+        font-size: 1.2rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #787878;
+        width: 80%;
+        text-align: right;
+        margin-left: 20%;
+    }
+    .sm-banner-content{
+        height: 24rem;
+        background: url(../imgs/dataCapability/小banner.png)  50%;
+    }
+}

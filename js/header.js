@@ -1,2 +1,2 @@
-    $(".header-box").load("https://yxc1.github.io/guanwang1/header.html")
+    $(".header-box").load("../header.html")
     

@@ -2,11 +2,23 @@
     <div class="my-container">
         <div class="header-logo"></div>
         <div class="header-menu">
-            <a href="/index.html" class="header-menu-item">首页</a>
-            <a href="/productService.html" class="header-menu-item">产品服务</a>
-            <a href="/dataCapability.html" class="header-menu-item">数据能力</a>
-            <a href="/contactUs.html" class="header-menu-item">联系我们</a>
+            <div class="header-menu-item-box">
+                <a href="/index.html" class="header-menu-item">首页</a>
+                <a href="/productService.html" class="header-menu-item">产品服务</a>
+                <a href="/dataCapability.html" class="header-menu-item">数据能力</a>
+                <a href="/contactUs.html" class="header-menu-item">联系我们</a>
+            </div>
             <div class="header-menu-btn">免费试用</div>
+            <div class="mob-menu-button">
+                <span></span>
+            </div>
+        </div>
+
+        <div class="mobile-menu animated">
+            <a href="/index.html" class="header-mobile-menu-item animated fadeIn">首页</a>
+            <a href="/productService.html" class="header-mobile-menu-item animated fadeIn">产品服务</a>
+            <a href="/dataCapability.html" class="header-mobile-menu-item animated fadeIn">数据能力</a>
+            <a href="/contactUs.html" class="header-mobile-menu-item animated fadeIn">联系我们</a>
         </div>
     </div>
 </div>
@@ -34,8 +46,30 @@
                 break;
         }
         const dom = document.documentElement.querySelectorAll('.header-menu-item')[index]
+        const dom2 = document.documentElement.querySelectorAll('.header-mobile-menu-item')[index]
+
         if (dom) {
             dom.style = 'color: #006AB2'
         }
+        if(dom2){
+            dom2.style = 'color: #006AB2'
+        }
+        $(".mob-menu-button").click(function () {
+            $(".mobile-menu").slideToggle("slow");
+            $(".mob-menu-button").toggleClass("on");
+            // $(".mobile-menu").toggleClass("mobile-menu-open");
+
+        });
+
+        $(window).resize(function () {
+            var w = window.innerWidth;
+            if (w > 499) {
+
+            } else {
+
+                $(".mob-menu-button").removeClass("on");
+                $(".mobile-menu").removeClass("mobile-menu-open");
+            };
+        });
     })
 </script>

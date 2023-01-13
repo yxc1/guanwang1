@@ -285,7 +285,7 @@
 .webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-btn {
     width: 9.2rem;
     height: 2rem;
-    background: linear-gradient(90deg, #D63775, #FFCAA4);
+    background: linear-gradient(90deg, #C37532, #DEA256, #F7DC9A, #F4D38C);
     border-radius: 0.2rem;
     font-size: 0.9rem;
     font-family: PingFang;
@@ -349,9 +349,11 @@
     justify-content: space-evenly;
     padding: 0.75rem 0;
 }
-.service-type-list .service-type-list-item:last-of-type{
+
+.service-type-list .service-type-list-item:last-of-type {
     border-bottom: none;
 }
+
 .service-type-list .service-type-list-item .service-type-list-item-one {
     width: 10rem;
     display: flex;
@@ -373,7 +375,7 @@
 .service-type-list .service-type-list-item img {
     display: flex;
     width: 4.5rem;
-    height:  4.5rem;
+    height: 4.5rem;
     margin-bottom: 3.3rem;
 }
 
@@ -409,4 +411,249 @@
     line-height: 3.4rem;
     text-align: center;
     cursor: pointer;
+}
+
+@media screen and (max-width: 499px) {
+    .banner-content {
+        background: url(../imgs/productService/产品banner背景.png) no-repeat;
+        background-size: 100% 100%;
+        height: 26.6rem;
+    }
+
+    .banner-content-img {
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .introduce-box {
+        height: auto;
+        background-size: auto 100%;
+        padding-top: 5rem;
+        margin-top: 5rem;
+    }
+
+    .line-title .title span {
+        display: none;
+    }
+
+    .line-title .title br {
+        display: inline-block !important;
+    }
+
+    .introduce-box .introduce-text {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+        margin-top: 3rem;
+    }
+
+    .container-box {
+        height: auto;
+        background: url(../imgs/productService/产品页bg.png) no-repeat;
+        background-position-y: 30rem;
+        background-size: 100% calc(100% - 60rem);
+        padding-bottom: 8.4rem;
+    }
+
+    .annual-report-box {
+        display: block;
+        height: auto;
+        margin-top: 4rem;
+    }
+
+    .annual-report-box .annual-report-left,
+    .annual-report-box .annual-report-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .annual-report-box .annual-report-left img,
+    .pro-box .pro-right img,
+    .webside-report-box .webside-report-left img {
+        width: 32rem;
+        height: 35rem;
+        position: unset;
+    }
+
+    .annual-report-box .annual-report-left .annual-report-left-content {
+        position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-title,
+    .pro-box .pro-right .pro-right-content .pro-right-title,
+    .webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-title {
+        font-size: 2.1rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #313131;
+        text-align: center;
+        margin-bottom: 1.6rem;
+    }
+
+    .annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-text,
+    .pro-box .pro-right .pro-right-content .pro-right-text,
+    .webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-text {
+        font-size: 1.9rem;
+        font-family: Adobe Heiti Std;
+        font-weight: normal;
+        color: #787878;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-p,
+    .pro-box .pro-right .pro-right-content .pro-right-p {
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #999999;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .annual-report-box .annual-report-left .annual-report-left-content .annual-report-left-btn,
+    .pro-box .pro-right .pro-right-content .pro-right-btn,
+    .webside-report-box .webside-report-left .webside-report-left-content .webside-report-left-btn {
+        width: 17.6rem;
+        height: 3.7rem;
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+        line-height: 3.7rem;
+    }
+
+    .annual-report-box .annual-report-right {
+        padding-top: 4.3rem;
+    }
+
+    .introduce-item i {
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-top: 0.85rem;
+    }
+
+    .introduce-item .introduce-item-box .introduce-title {
+        font-size: 1.9rem;
+        font-family: Adobe Heiti Std;
+        font-weight: bold;
+        color: #006AB2;
+    }
+
+    .introduce-item .introduce-item-box {
+        width: calc(100% - 1.55rem);
+    }
+
+    .introduce-item .introduce-item-box .introduce-text {
+        font-size: 1.6rem;
+    }
+
+    .pro-box {
+        height: auto;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .pro-box .pro-left,
+    .pro-box .pro-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pro-box .pro-right .pro-right-content {
+        position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pro-box .pro-left {
+        padding-top: 4.3rem;
+    }
+
+    .introduce-tip {
+        width: 100%;
+        font-size: 1.3rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #999999;
+    }
+
+    .webside-report-box {
+        height: auto;
+        flex-wrap: wrap;
+        margin-top: 5rem
+    }
+
+    .webside-report-box .webside-report-left,
+    .webside-report-box .webside-report-right {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .webside-report-box .webside-report-left .webside-report-left-content {
+        position: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .introduce-video-box video {
+        width: calc(100% - 4rem);
+    }
+
+    .introduce-video-box {
+        height: auto;
+        width: 100%;
+    }
+
+    .service-type-list .service-type-list-item .service-type-list-item-text {
+        width: 28%;
+        font-size: 1.2rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #787878;
+    }
+
+    .service-type-list .service-type-list-item .service-type-list-item-one {
+        width: 28%;
+    }
+
+    .service-type-list .service-type-list-item .title {
+        font-size: 1.4rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    .service-type-list .service-type-list-item img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .service-type-list .service-type-btn-box .service-type-btn {
+        width: 21.3rem;
+        height: 4.5rem;
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+        line-height: 4.5rem;
+    }
 }

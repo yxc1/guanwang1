@@ -586,7 +586,7 @@
 }
 
 .research-box .research-card {
-    width: 19rem;
+    width: 18.5rem;
     background: #FFFFFF;
     box-shadow: 0px 0.15rem 0.8rem 0px rgba(49, 170, 255, 0.3);
     border-radius: 0.2rem;
@@ -596,7 +596,7 @@
 
 .research-box .research-card .card-img-top {
     display: block;
-    width: 19rem;
+    width: 100%;
 }
 
 .research-box .research-card h5 {
@@ -611,4 +611,363 @@
     font-family: PingFang;
     font-weight: 500;
     color: #999999;
+}
+
+@media screen and (max-width: 499px) {
+    #carouselExampleIndicators {
+        height: 63.5rem;
+    }
+
+    .inner-item:nth-of-type(1) {
+        background: url(../imgs/home/banner背景1.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .inner-item:nth-of-type(2) {
+        background: url(../imgs/home/banner背景1.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .inner-item:nth-of-type(3) {
+        background: url(../imgs/home/banner背景1.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .inner-item-container {
+        display: block;
+        padding: 6rem 4rem;
+    }
+
+    .inner-item-container .inner-item-img {
+        width: 30rem;
+    }
+
+    .inner-item-container .inner-text {
+        width: 24.8rem;
+        height: 5.1rem;
+        background: none;
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-align: left;
+        margin-bottom: 5.7rem;
+        margin-top: 4.5rem;
+    }
+
+    .inner-item-container .inner-text .text-br {
+        display: inline-block !important;
+    }
+
+    .inner-item-container .inner-btn {
+        width: 13.3rem;
+        height: 3.7rem;
+        line-height: 3.7rem;
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #006AB2;
+    }
+
+    .inner-item-container .inner-btn img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .pattern-box {
+        background-size: 38rem;
+        height: auto;
+        background-position: top;
+        background-position-y: 2rem;
+        margin-top: 5rem;
+    }
+
+    .pattern-box .pattern-text {
+        padding: 0 2rem;
+        font-size: 1.8rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+        margin-top: 5rem;
+    }
+
+    .advantage-box .advantage-card-box .advantage-card {
+        width: 32rem;
+        height: 42.2rem;
+        margin-right: 0;
+        margin-bottom: 4rem;
+    }
+
+    .advantage-box .advantage-card-box {
+        flex-wrap: wrap;
+    }
+
+    .advantage-box .advantage-card-box .advantage-card .advantage-card-title {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 800;
+        color: #313131;
+    }
+
+    .advantage-box .advantage-card-box .advantage-card img {
+        width: 8rem;
+        height: 5.5rem;
+        margin-left: calc(50% - 4rem);
+    }
+
+    .advantage-box .advantage-card-box .advantage-card .advantage-card-text i {
+        width: 0.7rem;
+        height: 0.7rem;
+        margin-top: 0.85rem;
+    }
+
+    .advantage-box .advantage-card-box .advantage-card .advantage-card-text {
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #787878;
+    }
+
+    .advantage-box .advantage-card-box .advantage-card .advantage-card-btn {
+        width: 13rem;
+        height: 3.7rem;
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #006AB2;
+        line-height: 3.7rem;
+        left: calc(50% - 6.5rem);
+    }
+
+    .problems-box .problems-card-box {
+        flex-wrap: nowrap;
+        overflow-y: auto;
+        padding: 0 0.5rem;
+        -ms-overflow-style: none;
+        overflow: -moz-scrollbars-none;
+    }
+
+    .problems-box .problems-card-box::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+    .problems-box .problems-card-box .problems-card-item {
+        flex: none;
+        width: 31rem;
+        height: 29.6rem;
+        margin-right: 2rem;
+    }
+
+    .problems-box .problems-card-box .problems-card-item:last-of-type {
+        margin-right: 0;
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card-logo {
+        width: 12rem;
+        height: 12rem;
+        left: calc(50% - 6rem);
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-bg {
+        width: 11rem;
+        height: 11rem;
+        top: 0.5rem;
+        left: 0.5rem;
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-img,
+    .problems-box .problems-card-box .problems-card-item .problems-card-logo .problems-card-img-active {
+        width: 5rem;
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card {
+        height: 22.4rem;
+        padding: 6.2rem 1rem 0;
+
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-title {
+        font-size: 2.1rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+        color: #006AB2;
+    }
+
+    .problems-box .problems-card-box .problems-card-item .problems-card .problems-card-text {
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #535353;
+    }
+
+    .sm-banner-content {
+        background: url(../imgs/home/小banner2.png) no-repeat;
+        background-size: 100% 100%;
+        height: 21.3rem;
+    }
+
+    .sm-banner-btn {
+        margin-top: 3.7rem;
+    }
+
+    .research-box .research-card {
+        width: 33.4rem !important;
+        margin-bottom: 4rem;
+    }
+
+    .research-box .research-card .card-img-top {
+        width: 100% !important;
+    }
+
+    .card-body {
+        padding: 2.5rem 1.5rem;
+    }
+
+    .research-box .research-card h5 {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    .research-box .research-card .card-text {
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #999999;
+    }
+
+
+    .structure-box {
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 0 1rem;
+        margin: 5rem 0 10rem 0;
+    }
+
+    .structure-box .left-one {
+        width: 100%;
+        height: 3rem;
+        background: url(../imgs/home/框1.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .structure-box .left-one li {
+        width: 25%;
+        font-size: 1.6rem;
+    }
+
+    .structure-box .left-two img {
+        display: none;
+    }
+
+    .structure-box .left-two {
+        width: 100%;
+        background: url(../imgs/home/箭头2.png) no-repeat;
+        background-size: 60% 80%;
+        background-position: center;
+        height: 5rem;
+    }
+
+    .structure-box .left-two div {
+        font-size: 1.6rem;
+        font-family: Source Han Sans CN;
+        font-weight: 500;
+        color: #535353;
+    }
+
+    .structure-box .left-three {
+        background: url(../imgs/home/箭头1.png) no-repeat;
+        background-size: calc(100% - 4.5rem) calc(100% - 20rem);
+        background-position: center;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .structure-box .left-three .right-one {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+    }
+
+    .structure-box .left-three .right-two,
+    .structure-box .left-three .right-four {
+        display: none;
+    }
+
+    .structure-box .left-three .right-five {
+        width: 100%;
+        flex-wrap: nowrap;
+        flex-direction: unset;
+    }
+
+    .structure-box .left-three .right-one .right-one-add-icon {
+        width: 6.3rem;
+        height: 7.3rem;
+    }
+
+    .structure-box .left-three .right-five .right-five-item span {
+        display: inline-block !important;
+        font-size: 1.4rem;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        color: #006AB2;
+        text-align: center;
+    }
+
+    .structure-box .left-three .right-five .right-five-item img {
+        width: 4.6rem;
+        height: 5.4rem;
+    }
+
+    .structure-box .left-three .right-one .right-one-add-icon {
+        width: 3.4rem;
+        height: 3.4rem;
+    }
+
+    .structure-box .left-three .right-one .right-one-item img {
+        width: 6.3rem;
+        height: 7.3rem;
+    }
+
+    .structure-box .left-three .right-one .right-one-item span {
+        font-size: 1.6rem;
+        font-family: Source Han Sans CN;
+        font-weight: bold;
+        color: #006AB2;
+    }
+
+    .structure-box .left-three .right-three .right-three-text {
+        display: none;
+    }
+
+    .structure-box .left-three .right-three .right-three-text2 {
+        display: block !important;
+        font-size: 1.4rem;
+        font-family: Source Han Sans CN;
+        font-weight: 400;
+        color: #9E9E9E;
+    }
+
+    .structure-box .left-three .right-three .right-three-title {
+        font-size: 1.6rem;
+        font-family: Source Han Sans CN;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    .structure-box .left-three .right-three .right-three-img {
+        width: 10.4rem;
+        height: 12.2rem;
+    }
+
+    .structure-box .left-three .right-three .right-three-img-title {
+        width: 11.8rem;
+        height: 1.9rem;
+    }
+
+    .structure-box .left-three .right-three {
+        padding: 6rem 0 2rem 0;
+    }
+
 }

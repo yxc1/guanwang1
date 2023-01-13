@@ -1,10 +1,12 @@
-.banner-content{
+.banner-content {
     background: url(../imgs/contactUs/banner背景.png) 50%;
 }
-.banner-content-img{
+
+.banner-content-img {
     width: 13rem;
     background: url(../imgs/contactUs/专属服务.png) no-repeat;
 }
+
 .online-support {
     width: 100%;
     height: 35.5rem;
@@ -92,4 +94,88 @@
     font-family: PingFang;
     font-weight: 800;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 499px) {
+
+    .banner-content {
+        background: url(../imgs/contactUs/服务banner背景.png) no-repeat;
+        background-size: 100% 100%;
+        height: 26.6rem;
+    }
+
+    .banner-content-img {
+        width: 20rem;
+        height: 7rem;
+    }
+
+    .banner-btn {
+        margin-top: 2.6rem;
+    }
+
+    .online-support {
+        height: auto;
+    }
+
+    .QR-code-content {
+        flex-wrap: wrap;
+    }
+
+    .QR-code-content .QR-code--item {
+        width: 100%;
+        margin-right: 0;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+
+    .QR-code-content .QR-code--item .QR-img {
+        width: 13rem;
+        height: 13rem;
+
+    }
+
+    .QR-code-content .QR-code--item .QR-title {
+        font-size: 2.1rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #313131;
+    }
+
+    .QR-code-content .QR-code--item .QR-text {
+        font-size: 1.9rem;
+        font-family: PingFang SC;
+        font-weight: 500;
+        color: #787878;
+    }
+
+    .map-content {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .map-content .map-box {
+        width: 100%;
+        height: 26.6rem;
+        border: gray solid 1px;
+    }
+
+    .map-content .offline-service {
+        width: 100%;
+        height: 26.6rem;
+        background: url(../imgs/contactUs/线下服务背景.png) no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .map-content .offline-service .offline-service-title {
+        font-size: 2.4rem;
+        font-family: PingFang SC;
+        font-weight: bold;
+    }
+
+    .map-content .offline-service .offline-service-text {
+        font-size: 1.6rem;
+        font-family: PingFang SC;
+        font-weight: 800;
+        width: 23rem;
+    }
 }
