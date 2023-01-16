@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="map-content">
-            <div class="map-box"></div>
+            <div class="map-box" id="map-box"></div>
             <div class="offline-service">
                 <div class="offline-service-title">线下服务</div>
                 <div class="offline-service-text">覆盖北京、上海、南京、杭州、 深圳、广州，提供定期培训支持 及大版本更新讲解</div>
@@ -61,7 +61,27 @@
     <footer class="footer-box"></footer>
     <script src="./js/footer.js"></script>
     <!-- 底部部分结束 -->
+    <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=6069b08fc84bdbe23c7df9d5ebdd01d9">
+    </script>
+    <script>
+        //初始化地图插件
+        window.onload = function () {
+            var map = new AMap.Map('map-box', {
+                zoom: 17, //缩放级别
+                center: [120.01838133121493, 30.283093629485958], //地图显示中心点坐标，如果没有center属性，则会定位到你当前所处的位置
+            });
 
+            var marker = new AMap.Marker({
+                position: new AMap.LngLat(120.01838133121493,
+                    30.283093629485958), // 经纬度对象，也可以是经纬度构成的一维数组[116.39, 39.9]
+                title: '杭州投知信息技术有限公司',
+                anchor: 'bottom-center',
+            });
+            // 将创建的点标记添加到已有的地图实例：
+            map.add(marker);
+
+        }
+    </script>
 </body>
 
 </html>
