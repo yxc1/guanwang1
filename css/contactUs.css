@@ -75,7 +75,8 @@
 .map-content .offline-service {
     width: 50%;
     height: 100%;
-    background: url(../imgs/contactUs/线下服务.png) 50%;
+    background: url(../imgs/contactUs/线下服务.png) no-repeat;
+    background-size: 100% 100%;
     padding: 3.2rem 0 0 2.65rem;
     box-sizing: border-box;
 }
@@ -156,7 +157,6 @@
     .map-content .map-box {
         width: 100%;
         height: 26.6rem;
-        border: gray solid 1px;
     }
 
     .map-content .offline-service {
@@ -178,4 +178,11 @@
         font-weight: 800;
         width: 23rem;
     }
+}
+
+.amap-logo{
+    display: none !important;
+}
+.amap-copyright{
+    display: none !important;
 }
